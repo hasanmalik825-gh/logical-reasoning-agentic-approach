@@ -13,6 +13,7 @@ def get_reasoning_agent(groq_api_key: str):
     llm = ChatGroq(
         api_key=groq_api_key,
         model="mixtral-8x7b-32768",
+        streaming=True,
         temperature=0.1  # Lower temperature for faster responses
     )
 
