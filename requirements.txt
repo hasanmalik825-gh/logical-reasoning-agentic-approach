@@ -1,0 +1,9 @@
+fastapi
+streamlit
+uvicorn
+langchain_groq
+langchain_community
+langchain_core
+langchain
+uvicorn
+numexpr
