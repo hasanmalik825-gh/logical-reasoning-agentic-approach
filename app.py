@@ -14,7 +14,7 @@ if user_input and groq_api_key:
     st.info("Thinking...")
     response = agent.invoke({"input": user_input})
     st.success("Done!")
-    with st.expander("Agentic Response", expanded=True):
+    with st.expander("Agentic Response.", expanded=True):
         st.write(response["output"])
 else:
     st.warning("Please enter both, your Groq API key and question.")
