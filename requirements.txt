@@ -7,3 +7,4 @@ langchain_core
 langchain
 uvicorn
 numexpr
+wikipedia
